@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  audit:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tap and install cast-observe
+        run: |
+          brew tap ek33450505/cast-observe $GITHUB_WORKSPACE
+          brew install cast-observe
+          brew audit --strict cast-observe
