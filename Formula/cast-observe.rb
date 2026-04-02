@@ -3,7 +3,7 @@ class CastObserve < Formula
   homepage "https://github.com/ek33450505/cast-observe"
   url "https://github.com/ek33450505/cast-observe/archive/refs/heads/main.tar.gz"
   version "0.1.0"
-  sha256 "ffc58e4eeaf0108d7a252609a421f0332356beaa6f8855f9776c74976a4c0290"
+  sha256 "b7a7b799bdea8245e9a995d06654d3cd264e36fc94ec52e09d40fb3d8ffe4be4"
   license "MIT"
 
   depends_on "python3" => :recommended
