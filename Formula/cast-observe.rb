@@ -2,9 +2,9 @@ class CastObserve < Formula
   desc "Session-level observability for Claude Code"
   homepage "https://github.com/ek33450505/cast-observe"
   url "https://github.com/ek33450505/cast-observe/archive/refs/heads/main.tar.gz"
+  version "0.1.0"
   sha256 "1cdd9a4cc24966ed7d86c9179b335d5df63404400bfcf5ca152aacefa9999ba9"
   license "MIT"
-  version "0.1.0"
 
   depends_on "python3" => :recommended
 
@@ -32,6 +32,6 @@ class CastObserve < Formula
   end
 
   test do
-    system "#{bin}/cast-observe", "--version"
+    system bin/"cast-observe", "--version"
   end
 end
