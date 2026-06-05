@@ -1,9 +1,9 @@
 class CastObserve < Formula
   desc "Session-level observability for Claude Code"
   homepage "https://github.com/ek33450505/cast-observe"
-  url "https://github.com/ek33450505/cast-observe/archive/refs/tags/v0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "aa9c4c42f1b22b0d6a026ca3da8dde00c62f68e36798a5a43d54066f465d29d1"
+  url "https://github.com/ek33450505/cast-observe/archive/refs/tags/v0.2.1.tar.gz"
+  version "0.2.1"
+  sha256 "aef7db76b33049b6eac2dcf80d502512eb15f51e5f0e402611d0630ac8d2dd82"
   license "MIT"
 
   depends_on "python3" => :recommended
